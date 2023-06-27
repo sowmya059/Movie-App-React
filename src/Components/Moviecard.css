@@ -1,0 +1,35 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 16px;
+}
+.movie {
+  position: relative;
+}
+.movie h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+}
+.movie small {
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 4px;
+}
+.movie em {
+  font-style: normal;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 14px;
+  color: white;
+  background: green;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+h1 {
+  color: white;
+}

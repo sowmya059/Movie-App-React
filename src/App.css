@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #253240;
+  font-family: sans-serif;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1b2634;
+  padding-left: 16px;
+}
+
+header svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+header input {
+  background: none;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+search {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
