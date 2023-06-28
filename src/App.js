@@ -57,7 +57,7 @@ function App() {
       <header>
         <SearchBox search={search} setSearch={setSearch} />
       </header>
-      <main className="main">
+      <main className="movies">
         {movies &&
           movies.length > 0 &&
           movies.map((movie) => <Moviecard key={movie.id} movie={movie} />)}

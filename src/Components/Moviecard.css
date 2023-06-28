@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 16px;
+  float: right;
 }
 .movie {
   position: relative;
@@ -11,6 +12,9 @@
   font-size: 16px;
   color: white;
   font-weight: normal;
+}
+.movie img {
+  width: 100%;
 }
 .movie small {
   display: inline-block;
